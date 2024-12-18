@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#travel">Travel Date</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h1>Welcome to TravelMate</h1>
+        <p>Your perfect travel partner</p>
+    </section>
+
+    <section id="features">
+        <h2>Our Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <h3>Explore Destinations</h3>
+                <p>Find amazing places to visit</p>
+            </div>
+            <div class="feature">
+                <h3>Custom Itineraries</h3>
+                <p>Personalized plans for your travels</p>
+            </div>
+            <div class="feature">
+                <h3>Affordable Prices</h3>
+                <p>Travel without breaking the bank</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of travel enthusiasts dedicated to making your trips unforgettable. Our platform helps you plan your travel efficiently, from destinations to itineraries.</p>
+    </section>
+
+    <section id="travel-destination" class="travel-destination">
+        <div id="travel" class="travel-item">
+            <h2>Choose Your Travel Date</h2>
+            <input type="date" name="travel_date" id="travel_date">
+        </div>
+        <div id="destination" class="destination-item">
+            <h2>Pick Your Destination</h2>
+            <select name="destination" id="destination">
+                <option value="paris">Paris</option>
+                <option value="tokyo">Tokyo</option>
+                <option value="new-york">New York</option>
+                <option value="sydney">Sydney</option>
+            </select>
+        </div>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TravelMate. All rights reserved.</p>
+    </footer>
+</body>
+</html>
